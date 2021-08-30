@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu-head{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+}
+header{
+    background-color: rgb(214, 136, 175);
+}
+
+/* :left */
+.menu-left{
+    display: flex;
+    width: 20%;
+    margin: 0;
+
+}
+.menu-left img{
+    height: 60px;
+    padding-top: 10px;
+}
+/* :right */
+.menu-right{
+    width: 80%;
+    /* justify-content: flex-end; */
+}
+.lienlac, .menu-right nav ul{
+    /* justify-content: flex-end; */
+    /* padding-left: 600px; */
+    padding: 0px;
+    margin: 0%;
+    text-align: center;
+}
+.menu-right nav {
+    margin: 0;
+    padding: 0 auto;
+    width: 100%;
+    justify-content: flex-end;
+}
+.menu-right nav ul{
+    display:flex;
+    width: 100%;
+}
+.menu-right nav ul li{
+    /* display: flex; */
+    list-style: none;
+    padding-right: 10px;
+    font-size: 16px;
+    
+}
+
+.menu-right nav ul li:last-child{
+    padding-right: 0;
+}
+.menu-right nav ul li button{
+    width: auto;
+    height: 70%;
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+.menu-right nav ul li a {
+    color: #460daf;
+    text-decoration: none;
+    background-color: rgb(238, 226, 226);
+    border-radius: 30%;
+}
+.lienlac, .menu-right ul li{
+    /* justify-content: right; */
+    width: 100%;
+    /* justify-content: flex-start; */
+    text-align: right;
+    /* text-align: justify; */
+    justify-content: right;
+}
+
+article{
+    background-image: url(./img/thiet-ke-web427744049284.jpg);
+    height: auto;
+}
+section{
+    background-image: url(./img/br-gt.jpg);
+    width: 100%;
+    display: flex;
+    color: blanchedalmond;
+}
+
+.col-sm-6{
+    width: 80%;
+    background-color: brown; 
+    border-radius: 30%;
+    /* padding-right: 2px; */
+    padding-bottom: 13px;
+    text-align: center;
+    /* margin: 2px; */
+}
+aside{
+    width: 100%;
+    display: flex;
+}
+.col-sm img{
+    width: 75%;
+    padding: 10px;
+    margin: 0;
+    justify-content: center;
+    /* flex: auto; */
+    /* text-align: center; */
+}
+
+footer{
+    background-color: rgb(224, 218, 218);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
